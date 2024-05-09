@@ -8,7 +8,7 @@ local window = DrRayLibrary:Load("Hub", "Default")
 local tab1 = DrRayLibrary.newTab("Main", "rbxassetid://4483345998")
 
 -- Add elements to the first tab
-tab1.newButton("Button" function()
+Main.newButton("Button" function()
     local Targets = {"All"} -- "All", "Target Name", "Target name can be shortened"
  
 local Players = game:GetService("Players")
@@ -245,7 +245,6 @@ end
 return IsPlayerWhitelisted
 	end    
 })
-
 end)
 
 Main.newToggle("Touch Fling" true, function(Value)
