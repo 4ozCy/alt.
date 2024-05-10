@@ -5,7 +5,7 @@ local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/
 local window = DrRayLibrary:Load("Hub", "Default")
 
 -- Create the first tab with an image ID
-local tab1 = DrRayLibrary.newTab("Main", "rbxassetid://4483345998")
+local Main = DrRayLibrary.newTab("Main", "rbxassetid://4483345998")
 
 -- Add elements to the first tab
 Main.newButton("Button" function()
