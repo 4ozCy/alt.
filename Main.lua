@@ -5,10 +5,10 @@ local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/
 local window = DrRayLibrary:Load("Hub", "Default")
 
 -- Create the first tab with an image ID
-local Main = DrRayLibrary.newTab("Main", "rbxassetid://4483345998")
+local Main = DrRayLibrary.newTab("Main", "ok")
 
 -- Add elements to the first tab
-Main.newButton("Button" function()
+Main.newButton("Fling all" function()
     local Targets = {"All"} -- "All", "Target Name", "Target name can be shortened"
  
 local Players = game:GetService("Players")
@@ -244,7 +244,6 @@ end
 
 return IsPlayerWhitelisted
 	end    
-})
 end)
 
 Main.newToggle("Touch Fling" true, function(Value)
@@ -277,5 +276,4 @@ Main.newToggle("Touch Fling" true, function(Value)
 			flinging = false
 		end
 	end    
-})
 end)
